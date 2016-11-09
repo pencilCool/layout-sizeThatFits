@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "FBStoryView.h"
+
+
 
 @interface ViewController ()
+
 
 @end
 
@@ -17,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    FBStoryView *fb = [[FBStoryView alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:fb];
+    [fb sizeThatFits:fb.bounds.size];
+    
 }
 
 

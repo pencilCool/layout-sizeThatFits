@@ -13,6 +13,11 @@
 		EC55AA851DD2B6CB00A6C93C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA831DD2B6CB00A6C93C /* Main.storyboard */; };
 		EC55AA871DD2B6CB00A6C93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA861DD2B6CB00A6C93C /* Assets.xcassets */; };
 		EC55AA8A1DD2B6CB00A6C93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC55AA881DD2B6CB00A6C93C /* LaunchScreen.storyboard */; };
+		EC55AA931DD2B6E500A6C93C /* FBStoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA921DD2B6E500A6C93C /* FBStoryView.m */; };
+		EC55AA971DD2C62300A6C93C /* FBHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA961DD2C62300A6C93C /* FBHeaderView.m */; };
+		EC55AA9A1DD2C63E00A6C93C /* FBMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA991DD2C63E00A6C93C /* FBMessageView.m */; };
+		EC55AA9D1DD2C64B00A6C93C /* FBAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA9C1DD2C64B00A6C93C /* FBAttachmentView.m */; };
+		EC55AAA01DD2C67000A6C93C /* FBLikeBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55AA9F1DD2C67000A6C93C /* FBLikeBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		EC55AA861DD2B6CB00A6C93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC55AA891DD2B6CB00A6C93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC55AA8B1DD2B6CB00A6C93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC55AA911DD2B6E500A6C93C /* FBStoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBStoryView.h; sourceTree = "<group>"; };
+		EC55AA921DD2B6E500A6C93C /* FBStoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBStoryView.m; sourceTree = "<group>"; };
+		EC55AA941DD2BD8D00A6C93C /* note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = note.h; sourceTree = "<group>"; };
+		EC55AA951DD2C62300A6C93C /* FBHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHeaderView.h; sourceTree = "<group>"; };
+		EC55AA961DD2C62300A6C93C /* FBHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHeaderView.m; sourceTree = "<group>"; };
+		EC55AA981DD2C63E00A6C93C /* FBMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMessageView.h; sourceTree = "<group>"; };
+		EC55AA991DD2C63E00A6C93C /* FBMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMessageView.m; sourceTree = "<group>"; };
+		EC55AA9B1DD2C64B00A6C93C /* FBAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAttachmentView.h; sourceTree = "<group>"; };
+		EC55AA9C1DD2C64B00A6C93C /* FBAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAttachmentView.m; sourceTree = "<group>"; };
+		EC55AA9E1DD2C67000A6C93C /* FBLikeBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLikeBarView.h; sourceTree = "<group>"; };
+		EC55AA9F1DD2C67000A6C93C /* FBLikeBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLikeBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,21 @@
 		EC55AA791DD2B6CB00A6C93C /* FBStoryView */ = {
 			isa = PBXGroup;
 			children = (
+				EC55AA941DD2BD8D00A6C93C /* note.h */,
 				EC55AA7D1DD2B6CB00A6C93C /* AppDelegate.h */,
 				EC55AA7E1DD2B6CB00A6C93C /* AppDelegate.m */,
 				EC55AA801DD2B6CB00A6C93C /* ViewController.h */,
 				EC55AA811DD2B6CB00A6C93C /* ViewController.m */,
+				EC55AA911DD2B6E500A6C93C /* FBStoryView.h */,
+				EC55AA921DD2B6E500A6C93C /* FBStoryView.m */,
+				EC55AA9E1DD2C67000A6C93C /* FBLikeBarView.h */,
+				EC55AA9F1DD2C67000A6C93C /* FBLikeBarView.m */,
+				EC55AA9B1DD2C64B00A6C93C /* FBAttachmentView.h */,
+				EC55AA9C1DD2C64B00A6C93C /* FBAttachmentView.m */,
+				EC55AA981DD2C63E00A6C93C /* FBMessageView.h */,
+				EC55AA991DD2C63E00A6C93C /* FBMessageView.m */,
+				EC55AA951DD2C62300A6C93C /* FBHeaderView.h */,
+				EC55AA961DD2C62300A6C93C /* FBHeaderView.m */,
 				EC55AA831DD2B6CB00A6C93C /* Main.storyboard */,
 				EC55AA861DD2B6CB00A6C93C /* Assets.xcassets */,
 				EC55AA881DD2B6CB00A6C93C /* LaunchScreen.storyboard */,
@@ -151,9 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC55AA9A1DD2C63E00A6C93C /* FBMessageView.m in Sources */,
+				EC55AA971DD2C62300A6C93C /* FBHeaderView.m in Sources */,
+				EC55AA931DD2B6E500A6C93C /* FBStoryView.m in Sources */,
 				EC55AA821DD2B6CB00A6C93C /* ViewController.m in Sources */,
 				EC55AA7F1DD2B6CB00A6C93C /* AppDelegate.m in Sources */,
 				EC55AA7C1DD2B6CB00A6C93C /* main.m in Sources */,
+				EC55AA9D1DD2C64B00A6C93C /* FBAttachmentView.m in Sources */,
+				EC55AAA01DD2C67000A6C93C /* FBLikeBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
